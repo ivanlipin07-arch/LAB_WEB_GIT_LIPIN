@@ -1,0 +1,25 @@
+body {
+  font-family: "Neucha", cursive;
+  font-size: 17px;                        
+  font-weight: 400;                        
+  line-height: 1.5;                        
+  text-align: left;                       
+  color: #222222;                          
+  background-color: #f5f5f5;  
+}
+
+h1 {
+    text-align: center;
+}
+a {
+  color: #ff7b07;         
+  text-decoration: none;   
+}
+
+
+p {
+  background-color: #ffa807;  
+  border: 1px solid #dddddd;  
+  border-radius: 4px;        
+  padding: 10px;
+}
