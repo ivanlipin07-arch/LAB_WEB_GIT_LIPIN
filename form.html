@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="lab1_1.css">
+</head>
+<body>
+
+<header>
+  <nav class="links">
+    <a href="lab1_1.html">Главная</a>
+    <a href="form.html">Регистрация</a>
+  </nav>
+</header>
+
+<main>
+  <h1 class="title">Регистрация нового пользователя</h1>
+
+  <form action="form.html" method="get">
+    <fieldset>
+      <legend>Личная информация</legend>
+
+      <label for="name">Имя *</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Имя"
+        minlength="2"
+        maxlength="30"
+        required
+      >
+
+      <label for="birthdate">Дата рождения</label>
+      <input
+        type="date"
+        id="birthdate"
+        name="birthdate"
+        
+      >
+
+      <span>Пол</span>
+      <label>
+        <input
+          type="radio"
+          name="gender"
+          value="male"
+          
+        >
+        Мужской
+      </label>
+      <label>
+        <input
+          type="radio"
+          name="gender"
+          value="female"
+        >
+        Женский
+      </label>
+      <br>
+      <label for="email">Email *</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="name@example.com"
+        required
+      >
+
+      <label for="password">Пароль *</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Минимум 8 символов"
+        minlength="8"
+        required
+      >
+    </fieldset>
+
+    <fieldset>
+      <legend>Контактные данные</legend>
+
+      <label for="phone">Телефон *</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="+7 999 123-45-67"
+        pattern="\+7\d{10}"
+        maxlength="12"
+        required
+      >
+
+      <label for="contact_time">Удобный интервал для связи</label>
+      <select id="contact_time" name="contact_time">
+        <option value="">Выберите интервал</option>
+        <option value="morning">Утро</option>
+        <option value="day">День</option>
+        <option value="evening">Вечер</option>
+
+      </select>
+    </fieldset>
+
+    <button type="submit">Отправить</button>
+    <button type="reset">Сбросить</button>
+  </form>
+</main>
+
+<footer class="footer">
+  © 2026 Pedigree
+</footer>
+
+</body>
+</html>
