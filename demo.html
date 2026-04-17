@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Демо — CSS</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+  <main>
+
+    
+    <section class="demo-section">
+      <h2>1. Фон (background)</h2>
+      <div class="bg-box bg-color">background-color</div>
+      
+      <div class="bg-box bg-clip">background-clip: padding-box</div>
+    </section>
+
+    
+    <section class="demo-section">
+      <h2>2. Градиенты</h2>
+      <div class="grad-box grad-linear">linear-gradient</div>
+      <div class="grad-box grad-radial">radial-gradient</div>
+      <div class="grad-box grad-conic">conic-gradient</div>
+    </section>
+
+   
+    <section class="demo-section">
+      <h2>3. Тени (shadow)</h2>
+      <p class="shadow-text">text-shadow</p>
+      <div class="shadow-box">box-shadow</div>
+    </section>
+
+    
+    <section class="demo-section">
+      <h2>4. Анимации (animation + keyframes)</h2>
+      <div class="anim-row">
+        <div class="loader" title="spin — вращение (@keyframes spin)"></div>
+        <div class="pulse-box" title="pulse — пульсация (@keyframes pulse)"></div>
+      </div>
+    </section>
+
+    
+    <section class="demo-section">
+      <h2>5. 2D-преобразования</h2>
+      <div class="transform-row">
+        <div class="t-box rotate2d">rotate(45deg)</div>
+        <div class="t-box scale2d">scale(1.5)</div>
+      </div>
+    </section>
+
+    
+    <section class="demo-section">
+      <h2>6. 3D-преобразования</h2>
+      <div class="transform-row">
+        <div class="perspective-wrap">
+          <div class="t-box-3d rotatex">rotateX(60deg)</div>
+        </div>
+        <div class="perspective-wrap">
+          <div class="t-box-3d rotatey">rotateY(60deg)</div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="demo-section">
+      <h2>7. Переходы transition</h2>
+      <div class="trans-box trans-color">Цвет фона</div>
+      <div class="trans-box trans-size">Размер</div>
+    </section>
+
+  </main>
+
+</body>
+</html>
